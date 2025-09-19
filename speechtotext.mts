@@ -11,10 +11,10 @@ const audioBlob = new Blob([audioBuffer], { type: "audio/m4a" });
 
 const transcription = await elevenlabs.speechToText.convert({
   file: audioBlob,
-  modelId: "scribe_v1", // Model to use, for now only "scribe_v1" is supported.
-  tagAudioEvents: true, // Tag audio events like laughter, applause, etc.
-  languageCode: "eng", // Language of the audio file. If set to null, the model will detect the language automatically.
-  diarize: true, // Whether to annotate who is speaking
+  modelId: "scribe_v1",
+  tagAudioEvents: true,
+  languageCode: "eng",
+  diarize: true,
 });
 
 console.log(transcription);
