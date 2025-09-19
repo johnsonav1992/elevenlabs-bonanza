@@ -1,0 +1,28 @@
+{
+  "name": "elevenlabs-bonanza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsonav1992/elevenlabs-bonanza.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/johnsonav1992/elevenlabs-bonanza/issues"
+  },
+  "homepage": "https://github.com/johnsonav1992/elevenlabs-bonanza#readme",
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.15.0",
+    "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2"
+  }
+}
